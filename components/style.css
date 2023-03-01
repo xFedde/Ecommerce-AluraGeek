@@ -1,0 +1,167 @@
+/*Variables*/
+:root{
+     --bg-color:#ebebeb;
+     --input-placeholder:#d4d4d4;
+     --input-bg: #efefef;
+     --texto-destaque:#FFFF;
+     --azul-destaque: #2a7ae4;
+     --bg-contacto: #Eaf2fd;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+}
+header{
+    background-color:  #FFFFFF;
+    padding: 32.5px 155px 0 0 ;
+   
+    
+}
+nav{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+padding-bottom: 32px;
+    
+}
+/*-divs header-*/
+.logo-busqueda{
+
+    margin-left: 175px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logo img{
+    height: 30px;
+    width: 40px;
+}
+.logo p{
+    font-size: 26px;
+    font-weight: bold;
+}
+.logo .logo-azul{
+    margin-left:10px ;
+    color:#2A7AE4 ;
+}
+.logo-busqueda input{
+    margin-left: 10%;
+    width: 395px;
+    height: 16px;
+    line-height: 19px;
+    border-radius:30px;
+    padding: 1% 3%;
+    border: none;
+    background-color: #F5F5F5;
+    background-image: url("../assets/Lupa.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 420px;
+    }
+.login{
+    width: 600px;
+    display: flex;
+    justify-content: end;
+
+}
+.login button{
+    width: 182px;
+    height: 51px;
+    background:none;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+
+}
+.login button:hover{
+background-color: #2A7AE4;
+color: black;
+}
+
+/* banner*/
+
+.destaque{
+    height: 352px;
+    background-image: url(../assets/banner-image.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    padding: 32px;
+
+}
+.banner{
+  
+    width: 750px;
+    height: 320px;  
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 16px;
+
+}
+.banner h1{
+color: #FFFFFF;
+font-size: 52px;
+font-weight: bold;
+}
+.banner h4{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+}
+.banner button{
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    height: 51px;
+    width: 130px;
+}
+/*Sec prods*/
+.geral-prods{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin:0 auto;
+}
+.prod-titulo{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.prod-titulo .titulo{
+    font-size: 32px;
+    font-weight: bold;
+}
+.mostrar-mas{
+font-weight: bold;
+font-size: 16px;
+
+}
+.mostrar-mas a{
+    color: var(--azul-destaque);
+}
+.seccion-productos{
+height: 310px;
+width: 60vw;
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+/*Contact form*/
+.contact-form{
+    background-color: var( --bg-contacto);
+}
