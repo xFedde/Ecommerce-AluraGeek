@@ -6,28 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Alura</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./components/style.css">
+    <link rel="stylesheet" href="./components/header.css">
+    <link rel="stylesheet" href="./components/banner.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <img src="./assets/Logo.png" alt="">
-        <input type="text" name="" id="">
-        <input type="button" value="Login">
-    </header>
-    <section>
-        <img src="./assets/banner-image.png" alt="">
-        <h1>Febrero Promocional</h1>
-        <h2>Productos seleccionados con 33% de descuento</h2>
-        <input type="button" value="Ver consolas">
-    </section>
-    <section>
-        <div>      
-            <h3>Star Wars</h3>
-            <a href="#">Ver todo</a>
+        <nav >
+            <div class="logo-busqueda">
+                <div class="logo">
+                    <img src="./assets/sports_esports_black_24dp 1.png" alt="Logo de AluraGeek">
+                    <p class="logo-azul">Alura</p><p>Geek</p>
+                </div>
+                <input type="text" placeholder="¿Que deseas buscar?">
+            </div>
+                <div class="login">
+                    <a href="login.html"><button type="submit">Login</button></a>
+                    
+                </div>
+
+        </nav>
+        </header>
+      
+        <section class="destaque">
+            <div class="banner">
+                <h1>Febrero Promocional</h1>
+                <h4>Productos seleccionados con 33% de descuento</h4>
+                <button>Ver Consolas</button>
+            </div>
+        </section>
+
+    <section class="geral-prods">
+        <div class="prod-titulo">      
+            <h3 class="titulo">Star Wars</h3>
+            <div class="mostrar-mas">
+                <a href="#">Ver todo<img src="#"></a>
+            </div>
         </div>
 
-        <ul>
+        <ul class="seccion-productos">
             <li>
                 <figure>
                     <img src="./assets/stormtrooper-taza.png" alt="">
@@ -77,11 +98,13 @@
                 </figure>
             </li>
         </ul>
-        <div>      
-            <h3>Consolas</h3>
-            <a href="#">Ver todo</a>
+        <div class="prod-titulo">      
+            <h3 class="titulo">Consolas</h3>
+            <div class="mostrar-mas">
+                <a href="#">Ver todo</a>
+            </div>
         </div>
-        <ul>
+        <ul class="seccion-productos">
             <li>
                 <figure>
                     <img src="./assets/xbox-joystick.png" alt="">
@@ -131,11 +154,13 @@
                 </figure>
             </li>
         </ul>
-        <div>      
-            <h3>Diversos</h3>
-            <a href="#">Ver todo</a>
+        <div class="prod-titulo">      
+            <h3 class="titulo">Diversos</h3>
+            <div class="mostrar-mas">
+                <a href="#">Ver todo</a>
+            </div>
         </div>
-        <ul>
+        <ul class="seccion-productos">
             <li>
                 <figure>
                     <img src="./assets/camisa-atari.png" alt="">
@@ -186,9 +211,13 @@
             </li>
         </ul>
     </section>
-    <section>
-        <img src="./assets/Logo.png" alt="">
-        <ul></ul>
+    <section class="contact-form">
+                <div class="logo">
+                    <img src="./assets/sports_esports_black_24dp 1.png" alt="Logo de AluraGeek">
+                    <p class="logo-azul">Alura</p><p>Geek</p>
+                </div>
+
+        <ul ></ul>
         <li></li>
         <li></li>
         <li></li>
